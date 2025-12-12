@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.post("/animal", (req, res) => {
   const animalFavorito = req.body.animal;
 
-  // Redirección a la segunda vista con query param
+  // Redirección a la segunda vista 
   res.redirect(`/resultado.html?animal=${encodeURIComponent(animalFavorito)}`);
 });
 

@@ -8,27 +8,27 @@ Este proyecto solicita al usuario el nombre de su animal favorito, envía los da
 - npm
 
 ## Instalación
-
+```
 npm init -y
 npm install express
+```
 
 ## Estructura
-
-animal-favorito/
+```
+animal-favorito-html/
 │
 ├── server.js
 └── public/
     ├── index.html
     └── resultado.html
+```
 
 ## Ejecución
+```
 node server.js
+```
 
 Abrir en navegador:
+```
 http://localhost:3000
-
-## Bibliografía
-- Express.js. (2024). *Express - Node.js web application framework*. https://expressjs.com/
-- Node.js Foundation. (2024). *Node.js documentation*. https://nodejs.org/en/docs
-- Mozilla Developer Network. (2024). *Using HTML forms*. https://developer.mozilla.org/en-US/docs/Learn/Forms
-- Mozilla Developer Network. (2024). *URLSearchParams*. https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
+```
