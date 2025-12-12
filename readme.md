@@ -29,7 +29,8 @@ animal-favorito-html/
 node server.js
 ```
 
-Abrir en navegador:
+## Abrir en navegador:
+
 ```
 http://localhost:3000
 ```
