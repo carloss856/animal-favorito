@@ -8,8 +8,9 @@ Este proyecto solicita al usuario el nombre de su animal favorito, envía los da
 - npm
 
 ## Instalación
+Luego de clonar el repositorio, realiza ejecuta los siguientes comandos.
+
 ```
-npm init -y
 npm install express
 ```
 
